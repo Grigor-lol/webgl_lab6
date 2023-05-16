@@ -76,7 +76,7 @@ var ParticleManager = function(numParticles, pps) {
     this.accInit_ = 0.0;
     this.accDisp_ = 0.025;
  
-    this.sizeInit_ = 0.1;
+    this.sizeInit_ = 0.05;
     this.sizeDisp_ = 0.01;
  
     this.gravity_ = 0;
@@ -121,7 +121,7 @@ ParticleManager.prototype = {
         particle.size_ = this.sizeInit_ + (Math.random() - 0.5) * this.sizeDisp_;
  
         particle.alpha_ = 0;
-        particle.vAlpha_ = 0.6 + Math.random();
+        particle.vAlpha_ = 0.8 + Math.random();
  
         particle.active_ = true;
     },

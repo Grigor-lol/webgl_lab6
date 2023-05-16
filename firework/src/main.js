@@ -9,6 +9,7 @@ window.requestAnimFrame = (function()
 var gl = null;
 var lastTime = Date.now();
 var particleManager = null;
+var particleManager2 = null;
  
  
 function update(dt) {
@@ -64,7 +65,9 @@ function startRender(canvas_id) {
 
     particleManager = new ParticleManager(1000, 100);
     particleManager.setPosition(0.0, 0.0);
+
     render();
 }
+
 
 startRender("webgl-canvas")

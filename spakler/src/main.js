@@ -59,7 +59,7 @@ function startRender(canvas_id) {
 
     registerTexture("src/spark3.png");
 
-    particleManager = new ParticleManager(50, 100);
+    particleManager = new ParticleManager(1000, 100);
     particleManager.setPosition(0.0, 0.0);
     render();
 }

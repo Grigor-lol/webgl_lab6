@@ -76,7 +76,7 @@ var ParticleManager = function(numParticles, pps) {
     this.accInit_ = 0.0;
     this.accDisp_ = 0.025;
  
-    this.sizeInit_ = 0.02;
+    this.sizeInit_ = 0.01;
     this.sizeDisp_ = 0.002;
  
     this.gravity_ = 0.1;
